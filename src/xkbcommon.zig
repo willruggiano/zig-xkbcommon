@@ -348,6 +348,6 @@ fn refAllDeclsRecursive(comptime T: type) void {
     }
 }
 
-test "" {
+test {
     refAllDeclsRecursive(@This());
 }
